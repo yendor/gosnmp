@@ -19,7 +19,7 @@ import (
 )
 
 // MAX_OIDS is the maximum number of oids allowed in a Get()
-const MAX_OIDS = 60
+const MAX_OIDS = 10000
 
 type GoSNMP struct {
 
